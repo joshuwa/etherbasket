@@ -11,6 +11,11 @@
  *= require_self
  *= require_tree .
  */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
 @font-face {
   font-family: 'xenophone';
   src: font-url('xenophone.eot');
@@ -44,6 +49,7 @@ header {
 	background-color:#101020;
 	padding: 10px;
 	border-bottom: thin solid #666699;
+	text-align: center;
 	}
 	
 header h1 {
