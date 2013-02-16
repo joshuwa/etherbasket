@@ -28,10 +28,10 @@ footer,header,hgroup,menu,nav,section {
 }
 
 body {
-	background-color:#323040;
+	background-color:#141D14;
 	margin: 0px;
 	padding: 0px;
-	color:#CFCEF2;
+	color:#EFE672;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	}
@@ -46,18 +46,17 @@ body {
 }
 
 header {
-	background-color:#2E2D59;
+	background-color:#4C1B33;
 	padding: 10px;
-	border-bottom: thin solid #6A66D9;
+	border-bottom: thin solid #EFE672;
 	height: 80px;
 	}
 	
 header h1 {
 	float: left;
-	color:#6A66D9;
+	color:#2D6960;
 	padding-left: 20px;
 	font-family: xenophone, Verdana, Geneva, Arial, Helvetica, sans-serif;	
-	text-shadow: 0 0 1px #fff, 0 0 6px #fff, 0 0 6px #fff, 0 0 12px #79BF0F, 0 0 15px #79BF0F, 0 0 18px #79BF0F, 0 0 21px #79BF0F, 0 0 24px #79BF0F;
 	}
 	
 .gravatar {
@@ -67,7 +66,7 @@ header h1 {
 	-moz-border-radius-bottomright: 10px;
 	-webkit-border-bottom-right-radius: 10px;
 	border-radius: 5px;
-	border: thin solid #79BF0F;
+	border: thin solid #EFE672;
 }	
 	
 footer {
@@ -75,15 +74,15 @@ footer {
 	bottom:0;
 	width:100%;
 	height:40px;   /* Height of the footer */
-	border-top: thin solid #2E2D59;
-	background-color:#262626;
+	border-top: thin solid #EFE672;
+	background-color:#2D6960;
 	text-align: center;
-	color: #6A66D9;
+	color: #EFE672;
 	padding-top: 20px;
 }
 
 a {
-	color: #79BF0F;
+	color: #2D6960;
 	text-decoration: none;
 }
 
