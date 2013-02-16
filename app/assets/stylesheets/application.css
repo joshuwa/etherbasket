@@ -31,6 +31,15 @@ body {
 	-webkit-font-smoothing: antialiased;
 	}
 	
+#container {
+   height:100%;
+}	
+	
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+
 header {
 	background-color:#101020;
 	padding: 10px;
