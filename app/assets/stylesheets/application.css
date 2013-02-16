@@ -57,7 +57,7 @@ header h1 {
 	color:#6A66D9;
 	padding-left: 20px;
 	font-family: xenophone, Verdana, Geneva, Arial, Helvetica, sans-serif;	
-	text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 6px #fff, 0 0 12px #79BF0F, 0 0 15px #79BF0F, 0 0 18px #79BF0F, 0 0 21px #79BF0F, 0 0 24px #79BF0F;
+	text-shadow: 0 0 1px #CFCEF2, 0 0 3px #CFCEF2, 0 0 6px #CFCEF2, 0 0 12px #79BF0F, 0 0 15px #79BF0F, 0 0 18px #79BF0F, 0 0 21px #79BF0F, 0 0 24px #79BF0F;
 	}
 	
 .gravatar {
@@ -87,3 +87,38 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 6px #fff, 0 0 12px #79BF0F, 0 0 15px #79BF0F, 0 0 18px #79BF0F, 0 0 21px #79BF0F, 0 0 24px #79BF0F;
+}
+
+a:visited{
+	color: #69ae95;
+	text-decoration: none;		
+}
+
+.screwingaround{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-radius: 5px;
+	background-color: #151515;
+	padding-left: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+
+.screwingaroundheader{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-radius: 5px;
+	background-color: #262626;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #6A66D9;
+	font-weight: bold;
+}
